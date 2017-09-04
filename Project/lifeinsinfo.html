@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+			
+	<head>
+		<meta charset = "utf-8">
+		<title>Life Insurance Product Information Page</title>
+		<link rel="stylesheet" href="css/main4.css" />
+			<script>
+			/*
+			   function show1() 
+			{
+              document.getElementById("homepage").style.display = "none";
+			  document.getElementById("secleft").style.width= "1200px";
+		      document.getElementById("aboutuspage").style.display = "none";
+			  document.getElementById("productspage").style.display = "none";
+			  document.getElementById("contactuspage").style.display = "none";
+			 }
+			 function show2() 
+			{
+						  document.getElementById("secleft").style.width= "700px";
+              document.getElementById("homepage").style.display = "none";
+		      document.getElementById("aboutuspage").style.display = "block";
+			  document.getElementById("productspage").style.display = "none";
+			  document.getElementById("contactuspage").style.display = "none";
+			 }
+			 function show3() 
+			{
+    			document.getElementById("secleft").style.width= "700px";
+              document.getElementById("homepage").style.display = "none";
+		      document.getElementById("aboutuspage").style.display = "none";
+			  document.getElementById("productspage").style.display = "block";
+			  document.getElementById("contactuspage").style.display = "none";
+			 }
+			 function show4() 
+			{
+						  document.getElementById("secleft").style.width= "700px";
+              document.getElementById("homepage").style.display = "none";
+		      document.getElementById("aboutuspage").style.display = "none";
+			  document.getElementById("productspage").style.display = "none";
+			  document.getElementById("contactuspage").style.display = "block";
+			 }
+			*/
+			 
+</script>
+	</head>
+
+	<body>
+				<div class="container">
+				
+				<header class="top">
+						<img src="images/log.png" alt="Logo" class="logo" />
+						<h1 class="titlesize"> Mules Insurance System</h1>
+						<nav class="page_nav">
+									<ul style="padding-top:50px">
+												 <span id="uli1" onclick="show1();">Home</span></li>
+												 <span	id="uli2" onclick="show2();">About Us		</span></li>				
+												 <span id="uli3" onclick="show3();">Products		</span></li>
+												 <span	id="uli4" onclick="show4();">Contact Us	</span></li>																											
+									</ul>					
+						</nav>
+						<div class="clear"></div>
+				</header>
+					<a href="Homepage.html" ><img src="images/backward.ico"  height="40px" width="50px" style=" position: absolute; right: 350px;"></a>
+			
+				<section class="section_left" id="secleft" style="height: 680px;  width:1200px;">
+				
+				<br/>			
+				<div style="overflow: auto;">			
+				       <h1 style="text-align: left;">About Life Insurance Product :</h1>
+					  <table >
+					  <tr >
+					  <td style="width: 400px;">
+					  <a href="https://en.wikipedia.org/wiki/Life_insurance"> <img src="images/lifins.jpg" alt="Life Insurance" height="580px" width="400px"> </a>
+					  </td > 
+					  <td style="width: 800px;">
+					 <p style="font-size: 18px; position: relative; top: -30px; ">
+					 Life insurance or life assurance, especially in the Commonwealth, is a contract between an insurance policy holder and an insurer or assurer, 
+					  where the insurer promises to pay a designated beneficiary a sum of money (the benefit) in exchange for a premium, upon the death of an insured
+					  person (often the policy holder).<br/>
+					  Depending on the contract, other events such as terminal illness or critical illness can also trigger payment. 
+					  The policy holder typically pays a premium, either regularly or as one lump sum. Other expenses (such as funeral expenses) can also be included in
+					 the benefits. 
+					  
+					Life policies are legal contracts and the terms of the contract describe the limitations of the insured events. Specific exclusions are often written 
+					into the contract to limit the liability of the insurer; common examples are claims relating to suicide, fraud, war, riot, and civil commotion.
+					  </p>
+					  <b ><h3> Types of Life Insurance Policies</h3></b>
+					  <b>Whole life:</b> 
+					  <br/>
+					Whole-life policies, a type of permanent insurance, combine life coverage with an investment fund. Here, you're buying a policy that pays a stated,
+					fixed amount on your death, and part of your premium goes toward building cash value from investments made by the insurance company.
+					Cash value builds tax-deferred each year that you keep the policy, and you can borrow against the cash accumulation fund without being taxed. 
+					The amount you pay usually doesn't change throughout the life of the policy.
+						<br/>
+					  <b>Universal life</b>	
+						Universal life is a type of permanent insurance policy that combines term insurance with a money market-type investment that pays a market rate of 
+						return. To get a higher return, these policies generally don't guarantee a certain rate.
+						<br/>
+						<b>Variable life</b>
+						Variable life and variable universal life are permanent policies with an investment fund tied to a stock or bond mutual-fund investment. 
+						Returns are not guaranteed.
+						<br/>
+						<b>Term life</b>
+						A term policy is straight insurance with no investment component. You're buying life coverage that lasts for a set period of time provided 
+						you pay the monthly premium. Annual-renewable term is purchased year-by-year, although you don't have to requalify by showing evidence of
+						good health each year.
+				</p>
+					  </td> 
+					  </tr>
+					  </table>
+				</div>
+					 					   
+																						
+				</section>		
+				
+				<aside class="aside_right">
+							<div id="homepage" style="display: none;">
+								
+								<h2 style="padding: 10px; background-color: white; text-align: center;"> LOGIN DETAILS </h2>
+								<br/>
+								<hr>
+								<br/>
+								<form action="" >		
+								<label style=" font-size:20px; padding: 10px; ">
+								User Name : 
+								
+								<br/>
+								<br/>
+								
+								<input type='text' id = "un" maxlength="10" name="username" style="padding: 5px;" ><span style=" font-size: 15px; color: blue;"> Register If you donot have an User Name</span>
+																<br/>
+
+								</label>
+								<br/>
+								<hr>
+																<br/>
+
+								<label style=" font-size:20px; padding: 10px; ">
+								Password : 
+								<br/>
+									
+								<br/>
+								<input type='password' id = "pwd" name="password" style="padding: 5px;"> <span style=" font-size: 15px; color: blue;"> Must Contain A-Z,a-z,0-9,No Special Char's</span>
+								</label>
+								<br/>
+								<br/>
+								<hr>
+								<br/>
+								<br/>
+								
+								<input type='button' onsubmit= "validate();" value=" Sign In " style="padding: 10px; font-size: 15px;"> 
+								<input type='button' onsubmit= "validate();" value=" Reset " style="padding: 10px; font-size: 15px; margin-left: 10px;"> 
+							</form>
+								<br/>
+								<br/>
+								<hr>
+								<br/>
+								<br/>
+								<a href= "passwordchange.html" style=" font-size:20px; padding: 10px; " > Having Trouble Signing in / Forgot Username/Password </a>
+								<br/>
+								<br/>
+								<hr>
+								<br/>
+								<br/>
+								<a href= "" style=" font-size:20px; padding: 8px; " > Click Here to Sign Up / Register as a Member </a>
+								<br/>
+								<br/>
+								<hr>
+								<br/>
+								<br/>								
+								<br/>
+								<br/>
+								<br/>
+			
+							</div>		
+							
+		<div id="aboutuspage" style="padding-bottom: 22px;">
+								
+								<h2 style="padding: 10px; background-color: white; text-align: center;"> ABOUT US </h2>
+								<br/>
+								<hr>
+								<br/>
+								<img src="images/zuck.jpg" height="160px" width="180px" alt="President">								
+								<span style=" position: absolute; font-size:20px; vertical-align: right; overflow: hidden; ">
+								<b>President:</b><br/>
+								<b>Jagadeesh Babu T</b><br/>
+								adadadasdadadasadsdasdas
+								asdasdas<br/>
+								dasdasd
+								asdasdasdasdasdasdassd
+								asd<br/>assdas
+								adasd
+								asdassdasasd
+								assd
+								adad<br/>adasdadadasadsdasdasad
+								asdasdasda<br/>
+								<a href = ""> Click here to Know more</a>
+								</span>
+								<br/>
+								<hr>
+								<br/>
+								<img src="images/nad.jpg" height="160px" width="180px" alt="President">								
+								<span style=" position: absolute; font-size:20px; vertical-align: right; overflow: hidden; ">
+								<b> Vice President:</b><br/>
+								<b>Jagadeesh Babu T</b><br/>
+								adadadasdadadasadsdasdas
+								asdasdas<br/>
+								dasdasd
+								asdasdasdasdasdasdassd
+								asd<br/>assdas
+								adasd
+								asdassdasasd
+								assd
+								adad<br/>adasdadadasadsdasdasad
+								asdasdasda<br/>
+								<a href = ""> Click here to Know more</a>
+								</span>
+								<br/>
+								<hr>
+								<br/>
+								<img src="images/sundar.jpeg" height="160px" width="180px" alt="President">								
+								<span style=" position: absolute; font-size:20px; vertical-align: right; overflow: hidden; ">
+								<b>Cheif Executive Officer:</b><br/>
+								<b>Jagadeesh Babu T</b><br/>
+								adadadasdadadasadsdasdas
+								asdasdas<br/>
+								dasdasd
+								asdasdasdasdasdasdassd
+								asd<br/>assdas
+								adasd
+								asdassdasasd
+								assd
+								adad<br/>adasdadadasadsdasdasad
+								asdasdasda<br/>
+								<a href = ""> Click here to Know more</a>
+								</span>
+								<br/>
+								<br/>
+								<hr>
+							</div>
+							
+						<div id="productspage" style="padding-bottom: 22px;">
+								
+								<h2 style="padding: 10px; background-color: white; text-align: center;"> PRODUCTS OFFERED </h2>
+								<br/>
+								<hr>
+								<br/>					
+								<h3 style="font-size:25px; color: rgb(0,0,255);"><b>LIFE INSURANCE : </b></h3>
+								<br/>
+								<a href="" style="font-size:20px; padding-right: 10px;"> Apply For the Product </a> 
+								<a href="" style="font-size:20px; padding-left: 20px;"> Know About the Product </a> </li>
+								<br/>
+								<br/>
+								<hr>
+								<br/>					
+								<h3 style="font-size:25px; color: rgb(0,0,255);"><b>HEALTH INSURANCE : </b></h3>
+								<br/>
+								<a href="" style="font-size:20px; padding-right: 10px;"> Apply For the Product </a> 
+								<a href="" style="font-size:20px; padding-left: 20px;"> Know About the Product </a> </li>
+								
+								<br/>
+								<br/>
+								<hr>
+								<br/>
+								<h3 style="font-size:25px; color: rgb(0,0,255);"><b>AUTO INSURANCE : </b></h3>
+								<br/>
+								<a href="" style="font-size:20px; padding-right: 10px;"> Apply For the Product </a> 
+								<a href="" style="font-size:20px; padding-left: 20px;"> Know About the Product </a> </li>
+								
+								<br/>
+								<br/>
+								<hr>
+								<br/>					
+								<h3 style="font-size:25px; color: rgb(0,0,255); "><b>DENTAL INSURANCE : </b></h3>
+								<br/>
+								<a href="" style="font-size:20px; padding-right: 10px;"> Apply For the Product </a> 
+								<a href="" style="font-size:20px; padding-left: 20px;"> Know About the Product </a> </li>
+								<br/>
+								<br/>
+								<br/>
+								<hr>
+								<br/>
+													
+								<h3 style="font-size:25px; color: rgb(0,0,255);"><b>PROPERTY INSURANCE : </b></h3>
+								<br/>
+								<a href="" style="font-size:20px; padding-right: 10px;"> Apply For the Product </a> 
+								<a href="" style="font-size:20px; padding-left: 20px;"> Know About the Product </a> </li>
+								<br/>
+								<br/><br/>
+								
+															
+							</div>
+
+								<div id="contactuspage" style="padding-bottom: 45px;" >
+								<h2 style="padding: 10px; background-color: white; text-align: center;"> CONTACT US </h2>
+								<br/>
+								<hr>
+								<br/>
+								<img src="images/phn.png" height="160px" width="180px" alt="Phone">								
+								<span style=" position: absolute; font-size:20px; vertical-align: right; overflow: hidden; ">
+								<b>Phone Details:</b><br/>
+								<b>Office Phone & Fax</b><br/>
+								+1 316 258 5895(Phone)<br/>
+								+1 316 258 5895(Fax)<br/>
+								<b>Toll Free Numbers</b><br/>
+								+ 1800 210 6199<br/>
+								+1800 210 5698</span>
+								<br/>
+								<hr>
+								<br/>
+								<img src="images/em.png" height="160px" width="180px" alt="President">								
+								<span style=" position: absolute; font-size:20px; vertical-align: right; overflow: hidden; ">
+								<b>Email Details:</b><br/>
+								<b>Customer Service Email</b><br/>
+								MXS44840@UCMO.EDU<br/>
+								<b>IT Service Email</b><br/>
+								MXS44840@UCMO.EDU<br/>
+								<b>Official Email</b><br/>
+								MXS44840@UCMO.EDU<br/>
+								</span>
+								<br/>
+								<hr>
+								<br/>
+								<img src="images/al.jpg" height="160px" width="180px" alt="Live Support">								
+								<span style=" position: absolute; font-size:20px; vertical-align: right; overflow: hidden; ">
+								<b>Chat Support</b><br/>
+								<b>Click below for online chat</b><br/>
+								<a href=""> Chat with Help Desk Representative </a><br/>
+								<a href=""> Chat with Help Desk Representative </a><br/>
+								<b>Click below for Skype chat</b><br/><br/>
+								<a href=""> Skype Representative <img src="images/skype.jpg" height="20px" width="20px"> </a>
+								<br/>
+								<br/>
+								<br/>
+								<br/>
+
+							</div>													
+																					
+				</aside>
+				
+				<footer class="page_footer">
+					<b>&copy; Copyright @  Students of University of Central Missouri</b><br/>
+					Mules Insurance System<br/>
+					Follow Us On :<br/><br/>
+					<a href="www.facebook.com"> <img src="images/fb.png" alt="Facebook" height="30px" width="30px"> </a>
+					<a href="www.twiiter.com"> <img src="images/twit.png" alt="Twitter" height="30px" width="30px"> </a>
+					<a href="www.youtube.com"> <img src="images/yt.png" alt="You Tube" height="30px" width="30px"> </a>
+					<a href="www.gmail.com"> <img src="images/gpl.png" alt="Gmail" height="30px" width="30px"> </a>
+					
+					<br/>
+				</footer>
+				
+				
+				</div>				
+
+	</body>
+	
+</html>

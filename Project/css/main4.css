@@ -1,0 +1,188 @@
+/***********************************/
+/* responsive web design - enabled */
+/***********************************/
+
+/* remove default margin and padding used by browsers */
+
+* {
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+	 }
+
+/* keep the entire body of website in a div block */
+
+.container {
+	width:1200px;
+	margin:0px auto;
+	border: 1px solid grey;
+   }
+	
+   .titlesize{
+	   font-size: 50px;
+	   position:relative;
+	   top: 30px;
+	   
+   }
+/* handle the following elements as block */ 
+
+header,nav,section,articles,aside,footer {
+		display:block;
+   }	 
+   
+.top {
+	background-color:#ff6600;
+}
+   
+/* logo display */
+   
+.logo {
+	height:125px;
+	width:125px;
+	float:left;
+	padding:10px;
+}   
+
+/* page navigation on header at top */
+
+
+
+/* page navigation menu item */
+
+#uli1, #uli2 , #uli3, #uli4 {
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: underline;
+	color: White;
+	top: 50px;
+	padding: 20px;
+background-color: #ff6600;
+	}
+
+
+.page_nav p
+{
+	padding:0;
+	
+}
+.page_nav {
+	width:960px;
+	float:left;
+} 
+
+
+/* dummy div tag used to keep navigation and section separate */
+
+.clear {
+	clear:both;
+}
+
+/* dividing the website content into section and aside */
+
+
+.section_left {
+	float:left;
+	width:700px;
+	background-color:	#e6f3ff ;
+	}
+.section_one
+{
+	width: 600px; height: 610px; float:left;
+	
+}
+.section_one
+{
+	width: 582px; height: 610px; float:left;
+	
+}
+.section_left div {
+	border:2px solid black;
+	margin:5px 0px 5px 5px;
+	padding:5px;
+	}
+
+.section_left h1 {
+  text-align:center;
+  font-size:40px;
+	}
+
+/* peacock image display at the top */
+		
+.peacock {
+width:680px;
+height:306px;	
+}
+
+/* dividing the website content into section and aside */
+
+.aside_right {
+	float:left;
+	width:500px;
+	background-color:#e6f3ff;
+}
+
+.aside_right div {
+	border:2px solid black;
+	margin:5px;
+	padding:5px;	
+}
+
+/* page footer at bottom */
+
+.page_footer {
+	clear:both;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;	
+	font-size:20px;
+background-color: #ff6600;
+
+}
+.page_footer a:link
+{
+	text-decoration: none;
+}
+
+/***************************************/
+/* responsive web design - for mobile  */
+/***************************************/
+
+@media screen and (max-width:959px) {
+
+.container {
+	width:100%;
+  }
+
+.logo {
+	width:20%;
+}   
+
+.page_nav {
+	width:80%;
+}
+   
+.section_left {
+	width:70%;
+	}  
+	
+.aside_right {
+	width:30%;
+  }	
+	 
+}
+#homepage{
+	display: block;
+}
+#aboutuspage
+{
+		display: none;
+}
+#productspage
+{
+		display: none;
+}
+
+#contactuspage
+{
+		display: none;
+}
